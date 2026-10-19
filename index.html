@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ELITE FITNESS - Premium Gym & Fitness Center. Transform your body with world-class trainers, cutting-edge equipment, and personalized programs.">
-    <title>ELITE FITNESS | Premium Gym & Fitness</title>
+    <meta name="description" content="ELITE FITNESS - Luxury 24/7 Fitness Center with AI Concierge, Olympic-grade equipment, certified elite trainers, and world-class recovery facilities.">
+    <meta name="keywords" content="gym, luxury fitness, personal training, elite gym, bodybuilding, HIIT, AI fitness chatbot, fitness specs">
+    <meta name="author" content="Sain Bux Hadi Seelro">
+    <title>ELITE FITNESS | Luxury Gym & 24/7 AI Concierge</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,500;0,700;0,800;1,600&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
     <nav id="navbar">
         <div class="container nav-container">
-            <a href="#" class="logo">ELITE<span class="gold">FITNESS</span></a>
-            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+            <a href="#home" class="logo">ELITE<span class="gold">FITNESS</span></a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -23,9 +25,12 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
+                <li><a href="#specs">Specs</a></li>
+                <li><a href="#schedule">Schedule</a></li>
                 <li><a href="#pricing">Pricing</a></li>
                 <li><a href="#trainers">Trainers</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#bmi">BMI Calculator</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
                 <li><a href="#contact" class="nav-cta">Join Now</a></li>
             </ul>
         </div>
@@ -33,32 +38,44 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-overlay"></div>
+        <div class="hero-bg-media">
+            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1920&q=80" alt="Elite Fitness Gym Interior" class="hero-bg-img">
+            <div class="hero-overlay"></div>
+        </div>
         <div class="hero-content">
-            <p class="hero-subtitle fade-in-up">WELCOME TO ELITE FITNESS</p>
-            <h1 class="fade-in-up">TRANSFORM YOUR<br><span class="gold">BODY & MIND</span></h1>
-            <p class="hero-description fade-in-up">Experience world-class training, cutting-edge equipment, and personalized fitness programs designed to unlock your full potential.</p>
+            <div class="live-pill fade-in-up">
+                <span class="pulse-dot"></span>
+                <span>24/7 LIVE AI FITNESS ASSISTANT READY</span>
+            </div>
+            <h1 class="fade-in-up">FORGE YOUR<br><span class="gold">ULTIMATE BODY</span></h1>
+            <p class="hero-description fade-in-up">Step into New York's most prestigious 25,000 sq ft fitness sanctuary. Powered by Olympic-grade equipment, elite trainers, and continuous AI guidance.</p>
             <div class="hero-buttons fade-in-up">
-                <a href="#pricing" class="btn btn-primary">START YOUR JOURNEY</a>
-                <a href="#services" class="btn btn-outline">EXPLORE PROGRAMS</a>
+                <a href="#pricing" class="btn btn-primary"><i class="fas fa-bolt"></i> START MEMBERSHIP</a>
+                <a href="#specs" class="btn btn-outline"><i class="fas fa-layer-group"></i> VIEW SPECS</a>
+                <button id="openChatHeroBtn" class="btn btn-chat-hero"><i class="fas fa-robot"></i> ASK AI ASSISTANT</button>
             </div>
             <div class="hero-stats fade-in-up">
                 <div class="stat">
-                    <span class="stat-number" data-count="15">0</span>K+
-                    <span class="stat-label">Members</span>
+                    <div class="stat-value"><span class="stat-number" data-count="15">0</span>K+</div>
+                    <span class="stat-label">Active Members</span>
                 </div>
                 <div class="stat">
-                    <span class="stat-number" data-count="50">0</span>+
-                    <span class="stat-label">Expert Trainers</span>
+                    <div class="stat-value"><span class="stat-number" data-count="50">0</span>+</div>
+                    <span class="stat-label">Master Trainers</span>
                 </div>
                 <div class="stat">
-                    <span class="stat-number" data-count="200">0</span>+
-                    <span class="stat-label">Programs</span>
+                    <div class="stat-value"><span class="stat-number" data-count="25">0</span>K</div>
+                    <span class="stat-label">Sq Ft Luxury Area</span>
+                </div>
+                <div class="stat">
+                    <div class="stat-value"><span class="stat-number" data-count="99">0</span>.8%</div>
+                    <span class="stat-label">Goal Satisfaction</span>
                 </div>
             </div>
         </div>
         <div class="scroll-indicator">
-            <span></span>
+            <span class="mouse-wheel"></span>
+            <span class="scroll-text">EXPLORE</span>
         </div>
     </section>
 
@@ -68,14 +85,10 @@
             <div class="about-grid">
                 <div class="about-images">
                     <div class="about-img-wrapper">
-                        <div class="img-placeholder img-large">
-                            <i class="fas fa-dumbbell"></i>
-                        </div>
+                        <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80" alt="Athletic training session at Elite Fitness" class="about-img-main">
                     </div>
                     <div class="about-img-wrapper offset">
-                        <div class="img-placeholder img-small">
-                            <i class="fas fa-heartbeat"></i>
-                        </div>
+                        <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=600&q=80" alt="State of the art gym equipment" class="about-img-offset">
                     </div>
                     <div class="experience-badge">
                         <span class="exp-number">15+</span>
@@ -83,29 +96,32 @@
                     </div>
                 </div>
                 <div class="about-content">
-                    <p class="section-subtitle">ABOUT US</p>
-                    <h2 class="section-title">WE ARE <span class="gold">ELITE FITNESS</span></h2>
-                    <p class="about-text">Founded in 2011, ELITE FITNESS has been at the forefront of fitness excellence. We've built a sanctuary where dedication meets innovation, helping thousands achieve their fitness dreams.</p>
-                    <p class="about-text">Our state-of-the-art facility spans over 25,000 sq ft, equipped with the latest Technogym and Life Fitness equipment. We combine science-backed training methodologies with personalized attention to deliver results that speak for themselves.</p>
+                    <p class="section-subtitle">WHO WE ARE</p>
+                    <h2 class="section-title">THE NEW GOLD STANDARD IN <span class="gold">FITNESS</span></h2>
+                    <p class="about-text">Founded in 2011, ELITE FITNESS redefined strength, conditioning, and wellness in Downtown New York. We built a sanctuary where discipline converges with science-backed athletic training.</p>
+                    <p class="about-text">Spanning over 25,000 square feet, our facility pairs Technogym Artis series machines and Eleiko Olympic lifting platforms with an on-demand 24/7 AI Fitness Assistant to support your transformation every minute of the day.</p>
                     <div class="about-features">
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Certified Professional Trainers</span>
+                            <span>NSCA & IFBB Certified Master Coaches</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>State-of-the-Art Equipment</span>
+                            <span>Biometric Smart Key & 24/7 Secure Access</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Customized Nutrition Plans</span>
+                            <span>Contrast Cryo Therapy & Infrared Saunas</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>24/7 Premium Access</span>
+                            <span>Integrated 24/7 AI Concierge Assistance</span>
                         </div>
                     </div>
-                    <a href="#contact" class="btn btn-primary">LEARN MORE</a>
+                    <div class="about-actions">
+                        <a href="#specs" class="btn btn-primary">FACILITY SPECS</a>
+                        <a href="#trainers" class="btn btn-outline">MEET COACHES</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -115,84 +131,233 @@
     <section id="services" class="services">
         <div class="container">
             <div class="section-header">
-                <p class="section-subtitle">WHAT WE OFFER</p>
-                <h2 class="section-title">OUR PREMIUM <span class="gold">SERVICES</span></h2>
-                <p class="section-description">Discover our comprehensive range of fitness programs designed to help you achieve your goals, regardless of your fitness level.</p>
+                <p class="section-subtitle">SPECIALIZED DISCIPLINES</p>
+                <h2 class="section-title">OUR SIGNATURE <span class="gold">PROGRAMS</span></h2>
+                <p class="section-description">Engineered for measurable performance, rapid fat loss, and lean muscle hypertrophy under world-renowned supervision.</p>
             </div>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-dumbbell"></i>
                     </div>
-                    <h3>Strength Training</h3>
-                    <p>Build muscle mass and increase strength with our progressive overload programs guided by certified coaches.</p>
+                    <h3>Strength & Hypertrophy</h3>
+                    <p>Science-based progressive overload, Olympic weightlifting platforms, and compound power training designed to maximize muscle mass and absolute power.</p>
                     <ul class="service-list">
-                        <li><i class="fas fa-arrow-right"></i> Weightlifting</li>
-                        <li><i class="fas fa-arrow-right"></i> Powerlifting</li>
-                        <li><i class="fas fa-arrow-right"></i> Bodybuilding</li>
+                        <li><i class="fas fa-chevron-right"></i> Powerlifting & Deadlift Platforms</li>
+                        <li><i class="fas fa-chevron-right"></i> Custom Hypertrophy Protocols</li>
+                        <li><i class="fas fa-chevron-right"></i> Bio-Mechanical Form Audits</li>
                     </ul>
                 </div>
                 <div class="service-card featured">
                     <div class="popular-tag">MOST POPULAR</div>
                     <div class="service-icon">
-                        <i class="fas fa-running"></i>
+                        <i class="fas fa-fire-alt"></i>
                     </div>
-                    <h3>HIIT & Cardio</h3>
-                    <p>Torch calories and boost endurance with high-intensity interval training designed for maximum fat burn.</p>
+                    <h3>HIIT & Metabolic Conditioning</h3>
+                    <p>High-octane interval conditioning combining Keiser pneumatic resistance, curved treadmills, and heart-rate telemetry for peak calorie burn.</p>
                     <ul class="service-list">
-                        <li><i class="fas fa-arrow-right"></i> HIIT Circuits</li>
-                        <li><i class="fas fa-arrow-right"></i> Spin Classes</li>
-                        <li><i class="fas fa-arrow-right"></i> Tabata Training</li>
+                        <li><i class="fas fa-chevron-right"></i> Heart-Rate Monitored Intervals</li>
+                        <li><i class="fas fa-chevron-right"></i> Sprint & Assault Bike Circuits</li>
+                        <li><i class="fas fa-chevron-right"></i> EPOC Afterburn Optimization</li>
                     </ul>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-spa"></i>
                     </div>
-                    <h3>Yoga & Pilates</h3>
-                    <p>Enhance flexibility, balance, and mindfulness with our holistic mind-body programs.</p>
+                    <h3>Yoga, Mobility & Pilates</h3>
+                    <p>Restore joint alignment, build functional core stability, and reduce cortisol with guided Vinyasa, Reformer Pilates, and breathwork.</p>
                     <ul class="service-list">
-                        <li><i class="fas fa-arrow-right"></i> Vinyasa Flow</li>
-                        <li><i class="fas fa-arrow-right"></i> Power Pilates</li>
-                        <li><i class="fas fa-arrow-right"></i> Meditation</li>
+                        <li><i class="fas fa-chevron-right"></i> Reformer & Mat Pilates</li>
+                        <li><i class="fas fa-chevron-right"></i> Athletic Mobility Restoration</li>
+                        <li><i class="fas fa-chevron-right"></i> Mindfulness & Recovery Flow</li>
                     </ul>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-fist-raised"></i>
                     </div>
-                    <h3>Boxing & MMA</h3>
-                    <p>Learn combat sports fundamentals while getting an incredible full-body workout.</p>
+                    <h3>Boxing & Combat Arts</h3>
+                    <p>Real combat conditioning led by professional fighters. Heavy bag drills, footwork, speed bag endurance, and explosive hand-eye speed.</p>
                     <ul class="service-list">
-                        <li><i class="fas fa-arrow-right"></i> Kickboxing</li>
-                        <li><i class="fas fa-arrow-right"></i> Muay Thai</li>
-                        <li><i class="fas fa-arrow-right"></i> Boxing Fitness</li>
+                        <li><i class="fas fa-chevron-right"></i> Authentic Kickboxing & Muay Thai</li>
+                        <li><i class="fas fa-chevron-right"></i> Pro Boxing Ring & Heavy Bags</li>
+                        <li><i class="fas fa-chevron-right"></i> High-Energy Sparring Drills</li>
                     </ul>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-users"></i>
                     </div>
-                    <h3>Group Classes</h3>
-                    <p>Stay motivated and have fun with our energetic group fitness sessions for all levels.</p>
+                    <h3>Cross-Training & Functional</h3>
+                    <p>Dynamic group sessions combining kettlebells, plyometrics, rope climbs, and team conditioning challenges that build resilience.</p>
                     <ul class="service-list">
-                        <li><i class="fas fa-arrow-right"></i> Zumba</li>
-                        <li><i class="fas fa-arrow-right"></i> CrossFit</li>
-                        <li><i class="fas fa-arrow-right"></i> Boot Camp</li>
+                        <li><i class="fas fa-chevron-right"></i> Daily Functional WODs</li>
+                        <li><i class="fas fa-chevron-right"></i> Agility & Turf Sled Tracks</li>
+                        <li><i class="fas fa-chevron-right"></i> High-Spirited Community</li>
                     </ul>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-user-tie"></i>
+                        <i class="fas fa-user-shield"></i>
                     </div>
-                    <h3>Personal Training</h3>
-                    <p>Get 1-on-1 attention with customized programs tailored to your specific goals.</p>
+                    <h3>1-on-1 VIP Coaching</h3>
+                    <p>Dedicated bespoke mentorship with blood panel review, 3D body composition scanning, tailor-made macronutrient plans, and 24/7 coach check-ins.</p>
                     <ul class="service-list">
-                        <li><i class="fas fa-arrow-right"></i> 1-on-1 Coaching</li>
-                        <li><i class="fas fa-arrow-right"></i> Meal Planning</li>
-                        <li><i class="fas fa-arrow-right"></i> Progress Tracking</li>
+                        <li><i class="fas fa-chevron-right"></i> Dedicated Master Coach</li>
+                        <li><i class="fas fa-chevron-right"></i> InBody 770 Composition Scans</li>
+                        <li><i class="fas fa-chevron-right"></i> Precision Nutrition Roadmap</li>
                     </ul>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW: Gym Specifications Section -->
+    <section id="specs" class="specs-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">FACILITY & HARDWARE METRICS</p>
+                <h2 class="section-title">ELITE GYM <span class="gold">SPECIFICATIONS</span></h2>
+                <p class="section-description">A transparent breakdown of our engineering, hardware, and wellness ecosystem designed to outclass standard commercial gyms.</p>
+            </div>
+            <div class="specs-grid">
+                <div class="spec-card">
+                    <div class="spec-header">
+                        <i class="fas fa-building"></i>
+                        <h3>Architecture & Facility</h3>
+                    </div>
+                    <ul class="spec-details">
+                        <li>
+                            <span class="spec-label">Floor Space</span>
+                            <span class="spec-val">25,000 sq ft (Multi-Level)</span>
+                        </li>
+                        <li>
+                            <span class="spec-label">Ceiling Height</span>
+                            <span class="spec-val">18 ft Acoustic Dampened</span>
+                        </li>
+                        <li>
+                            <span class="spec-label">Air Filtration</span>
+                            <span class="spec-val">Medical Grade HEPA-13 HVAC</span>
+                        </li>
+                        <li>
+                            <span class="spec-label">Access Control</span>
+                            <span class="spec-val">24/7 Biometric & RFID Turnstiles</span>
+                        </li>
+                        <li>
+                            <span class="spec-label">Flooring</span>
+                            <span class="spec-val">Regupol Shock-Absorptive Rubber</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="spec-card">
+                    <div class="spec-header">
+                        <i class="fas fa-dumbbell"></i>
+                        <h3>Equipment & Hardware</h3>
+                    </div>
+                    <ul class="spec-details">
+                        <li>
+                            <span class="spec-label">Strength Tech</span>
+                            <span class="spec-val">Technogym Artis Pure Strength</span>
+                        </li>
+                        <li>
+                            <span class="spec-label">Free Weights</span>
+                            <span class="spec-val">Eleiko IWF Certified (Up to 150 lbs)</span>
+                        </li>
+                        <li>
+                            <span class="spec-label">Power Racks</span>
+                            <span class="spec-val">12 Custom Olympic Power Stations</span>
+                        </li>
+                        <li>
+                            <span class="spec-label">Cardio Fleet</span>
+                            <span class="spec-val">Woodway Curved & Keiser M3i</span>
+                        </li>
+                        <li>
+                            <span class="spec-label">Turf Track</span>
+                            <span class="spec-val">40-Yard Sprint & Prowler Turf</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="spec-card">
+                    <div class="spec-header">
+                        <i class="fas fa-hot-tub"></i>
+                        <h3>Recovery & Wellness</h3>
+                    </div>
+                    <ul class="spec-details">
+                        <li>
+                            <span class="spec-label">Infrared Saunas</span>
+                            <span class="spec-val">Clearlight Sanctuary Full-Spectrum</span>
+                        </li>
+                        <li>
+                            <span class="spec-label">Cold Plunges</span>
+                            <span class="spec-val">Twin Chilled Tubs at 42°F (5.5°C)</span>
+                        </li>
+                        <li>
+                            <span class="spec-label">Percussive Lounge</span>
+                            <span class="spec-val">Hyperice & Normatec Compression</span>
+                        </li>
+                        <li>
+                            <span class="spec-label">Locker Suites</span>
+                            <span class="spec-val">Rainfall Showers, Keyless Lockers</span>
+                        </li>
+                        <li>
+                            <span class="spec-label">Hydration Bar</span>
+                            <span class="spec-val">Electrolyte & Alkaline Refill Hub</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="spec-card">
+                    <div class="spec-header">
+                        <i class="fas fa-microchip"></i>
+                        <h3>Tech & Digital Concierge</h3>
+                    </div>
+                    <ul class="spec-details">
+                        <li>
+                            <span class="spec-label">AI Assistant</span>
+                            <span class="spec-val">24/7 Natural Language Live Agent</span>
+                        </li>
+                        <li>
+                            <span class="spec-label">Body Composition</span>
+                            <span class="spec-val">InBody 770 Multi-Frequency Scan</span>
+                        </li>
+                        <li>
+                            <span class="spec-label">Wi-Fi Network</span>
+                            <span class="spec-val">Gigabit Ultra-Fast Mesh Wi-Fi 6</span>
+                        </li>
+                        <li>
+                            <span class="spec-label">Heart Rate Telemetry</span>
+                            <span class="spec-val">Live Screen Sync for Cardio</span>
+                        </li>
+                        <li>
+                            <span class="spec-label">Occupancy Tracker</span>
+                            <span class="spec-val">Real-time Live Crowd Density Meter</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW: Live Class Schedule Section -->
+    <section id="schedule" class="schedule-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">TIMETABLE & RESERVATIONS</p>
+                <h2 class="section-title">WEEKLY CLASS <span class="gold">SCHEDULE</span></h2>
+                <p class="section-description">Filter high-performance classes led daily by master coaches. Tap any class to book or check details with the AI assistant.</p>
+            </div>
+            <div class="schedule-filter-tabs">
+                <button class="filter-btn active" data-day="all">All Days</button>
+                <button class="filter-btn" data-day="mon">Monday</button>
+                <button class="filter-btn" data-day="wed">Wednesday</button>
+                <button class="filter-btn" data-day="fri">Friday</button>
+                <button class="filter-btn" data-day="sat">Saturday</button>
+            </div>
+            <div class="schedule-grid" id="scheduleGrid">
+                <!-- Class items injected / filtered by script.js -->
             </div>
         </div>
     </section>
@@ -201,9 +366,18 @@
     <section id="pricing" class="pricing">
         <div class="container">
             <div class="section-header">
-                <p class="section-subtitle">MEMBERSHIP PLANS</p>
-                <h2 class="section-title">CHOOSE YOUR <span class="gold">PLAN</span></h2>
-                <p class="section-description">Select the perfect membership tier that aligns with your fitness journey. All plans include access to our premium facilities.</p>
+                <p class="section-subtitle">TRANSPARENT TIERS</p>
+                <h2 class="section-title">CHOOSE YOUR <span class="gold">MEMBERSHIP</span></h2>
+                <p class="section-description">Select your frequency. Enjoy month-to-month flexibility or save 20% with an annual membership.</p>
+                
+                <div class="billing-switcher">
+                    <span class="billing-label active" id="monthlyLabel">Monthly</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="billingToggle">
+                        <span class="toggle-slider"></span>
+                    </label>
+                    <span class="billing-label" id="annualLabel">Annual <span class="discount-badge">Save 20%</span></span>
+                </div>
             </div>
             <div class="pricing-grid">
                 <div class="pricing-card">
@@ -211,84 +385,164 @@
                         <h3>BASIC</h3>
                         <div class="price">
                             <span class="currency">$</span>
-                            <span class="amount">49</span>
+                            <span class="amount" data-monthly="49" data-annual="39">49</span>
                             <span class="period">/month</span>
                         </div>
+                        <p class="pricing-desc">For self-driven lifters seeking prime floor access.</p>
                     </div>
                     <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> Gym Floor Access</li>
-                        <li><i class="fas fa-check"></i> Cardio Equipment</li>
-                        <li><i class="fas fa-check"></i> Locker Room</li>
-                        <li><i class="fas fa-check"></i> 2 Group Classes/Week</li>
-                        <li><i class="fas fa-check"></i> Free WiFi</li>
-                        <li class="disabled"><i class="fas fa-times"></i> Personal Training</li>
-                        <li class="disabled"><i class="fas fa-times"></i> Nutrition Coaching</li>
-                        <li class="disabled"><i class="fas fa-times"></i> Spa & Sauna</li>
+                        <li><i class="fas fa-check"></i> 25,000 sq ft Gym Floor Access</li>
+                        <li><i class="fas fa-check"></i> Technogym Cardio & Machines</li>
+                        <li><i class="fas fa-check"></i> Standard Locker Room & Showers</li>
+                        <li><i class="fas fa-check"></i> 2 Group Classes per Month</li>
+                        <li><i class="fas fa-check"></i> Ultra-Fast Wi-Fi 6</li>
+                        <li><i class="fas fa-check"></i> 24/7 AI Assistant Access</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Personal Training Included</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Infrared Sauna & Cold Plunge</li>
                     </ul>
                     <a href="#contact" class="btn btn-outline">GET STARTED</a>
                 </div>
+
                 <div class="pricing-card featured">
                     <div class="recommended-tag">RECOMMENDED</div>
                     <div class="pricing-header">
                         <h3>STANDARD</h3>
                         <div class="price">
                             <span class="currency">$</span>
-                            <span class="amount">89</span>
+                            <span class="amount" data-monthly="89" data-annual="69">89</span>
                             <span class="period">/month</span>
                         </div>
+                        <p class="pricing-desc">The complete fitness experience with unlimited group classes.</p>
                     </div>
                     <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> Full Gym Access</li>
-                        <li><i class="fas fa-check"></i> All Equipment</li>
-                        <li><i class="fas fa-check"></i> Premium Locker</li>
-                        <li><i class="fas fa-check"></i> Unlimited Group Classes</li>
-                        <li><i class="fas fa-check"></i> Free WiFi</li>
-                        <li><i class="fas fa-check"></i> 2 PT Sessions/Month</li>
-                        <li><i class="fas fa-check"></i> Basic Nutrition Guide</li>
-                        <li class="disabled"><i class="fas fa-times"></i> Spa & Sauna</li>
+                        <li><i class="fas fa-check"></i> Full 24/7 Gym & Turf Access</li>
+                        <li><i class="fas fa-check"></i> Unlimited HIIT, Yoga & Boxing Classes</li>
+                        <li><i class="fas fa-check"></i> Executive Locker & Rainfall Showers</li>
+                        <li><i class="fas fa-check"></i> 2 Personal Coaching Sessions / mo</li>
+                        <li><i class="fas fa-check"></i> InBody 770 Body Scan / quarter</li>
+                        <li><i class="fas fa-check"></i> Nutrition & Macronutrient Roadmap</li>
+                        <li><i class="fas fa-check"></i> Priority 24/7 AI Concierge</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Dedicated Private VIP Suite</li>
                     </ul>
-                    <a href="#contact" class="btn btn-primary">GET STARTED</a>
+                    <a href="#contact" class="btn btn-primary">JOIN STANDARD</a>
                 </div>
+
                 <div class="pricing-card premium">
-                    <div class="premium-tag">PREMIUM</div>
+                    <div class="premium-tag">PREMIUM VIP</div>
                     <div class="pricing-header">
-                        <h3>ELITE</h3>
+                        <h3>ELITE VIP</h3>
                         <div class="price">
                             <span class="currency">$</span>
-                            <span class="amount">149</span>
+                            <span class="amount" data-monthly="149" data-annual="119">149</span>
                             <span class="period">/month</span>
                         </div>
+                        <p class="pricing-desc">All-inclusive VIP luxury, personal coaching & full recovery suite.</p>
                     </div>
                     <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> 24/7 Full Access</li>
-                        <li><i class="fas fa-check"></i> VIP Equipment Zone</li>
-                        <li><i class="fas fa-check"></i> Private Locker</li>
-                        <li><i class="fas fa-check"></i> Unlimited Everything</li>
-                        <li><i class="fas fa-check"></i> High-Speed WiFi</li>
-                        <li><i class="fas fa-check"></i> 8 PT Sessions/Month</li>
-                        <li><i class="fas fa-check"></i> Custom Meal Plans</li>
-                        <li><i class="fas fa-check"></i> Spa, Sauna & Pool</li>
+                        <li><i class="fas fa-check"></i> 24/7 Unrestricted VIP Access</li>
+                        <li><i class="fas fa-check"></i> Unlimited Recovery (Cryo, Infrared Saunas)</li>
+                        <li><i class="fas fa-check"></i> 8 Private 1-on-1 Personal Training / mo</li>
+                        <li><i class="fas fa-check"></i> Dedicated Master Coach & Custom App</li>
+                        <li><i class="fas fa-check"></i> Monthly InBody 770 Bio-Scans</li>
+                        <li><i class="fas fa-check"></i> Electrolyte & Shake Bar Allowance</li>
+                        <li><i class="fas fa-check"></i> Permanent Private Assigned Locker</li>
+                        <li><i class="fas fa-check"></i> Guest Privileges (2 passes/month)</li>
                     </ul>
-                    <a href="#contact" class="btn btn-primary">GET STARTED</a>
+                    <a href="#contact" class="btn btn-primary">JOIN ELITE VIP</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Trainers Section -->
+    <!-- NEW: Interactive BMI & Calorie Calculator Section -->
+    <section id="bmi" class="bmi-section">
+        <div class="container">
+            <div class="bmi-grid">
+                <div class="bmi-content">
+                    <p class="section-subtitle">INSTANT HEALTH ASSESSMENT</p>
+                    <h2 class="section-title">CALCULATE YOUR <span class="gold">BMI & TARGETS</span></h2>
+                    <p class="bmi-text">Your Body Mass Index (BMI) is a scientifically validated screening tool. Enter your current stats to instantly preview your health category, ideal weight range, and tailored workout pathway.</p>
+                    <div class="bmi-info-cards">
+                        <div class="bmi-card-mini">
+                            <span class="cat-pill normal">&lt; 18.5</span>
+                            <span>Underweight</span>
+                        </div>
+                        <div class="bmi-card-mini active">
+                            <span class="cat-pill ideal">18.5 - 24.9</span>
+                            <span>Ideal Weight</span>
+                        </div>
+                        <div class="bmi-card-mini">
+                            <span class="cat-pill warning">25.0 - 29.9</span>
+                            <span>Overweight</span>
+                        </div>
+                        <div class="bmi-card-mini">
+                            <span class="cat-pill danger">30.0+</span>
+                            <span>Obesity Zone</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bmi-calculator-box">
+                    <h3>Interactive Body Metric Tool</h3>
+                    <form id="bmiForm" class="bmi-form">
+                        <div class="bmi-row">
+                            <div class="bmi-group">
+                                <label for="bmiHeight">Height (cm)</label>
+                                <input type="number" id="bmiHeight" placeholder="e.g. 175" min="100" max="250" required>
+                            </div>
+                            <div class="bmi-group">
+                                <label for="bmiWeight">Weight (kg)</label>
+                                <input type="number" id="bmiWeight" placeholder="e.g. 72" min="30" max="250" required>
+                            </div>
+                        </div>
+                        <div class="bmi-row">
+                            <div class="bmi-group">
+                                <label for="bmiAge">Age</label>
+                                <input type="number" id="bmiAge" placeholder="e.g. 26" min="14" max="100" required>
+                            </div>
+                            <div class="bmi-group">
+                                <label for="bmiGoal">Primary Goal</label>
+                                <select id="bmiGoal">
+                                    <option value="fat_loss">Fat Loss & Conditioning</option>
+                                    <option value="muscle_gain">Hypertrophy & Muscle Gain</option>
+                                    <option value="maintenance">Maintenance & Longevity</option>
+                                    <option value="athletic">Athletic Speed & Strength</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full"><i class="fas fa-calculator"></i> CALCULATE METRICS</button>
+                    </form>
+
+                    <div id="bmiResult" class="bmi-result-card" style="display: none;">
+                        <div class="bmi-score-wrapper">
+                            <div class="score-circle">
+                                <span id="bmiScore">23.5</span>
+                                <small>BMI</small>
+                            </div>
+                            <div class="score-details">
+                                <h4 id="bmiCategory">Healthy Weight</h4>
+                                <p id="bmiAdvice">Great balance! Focus on progressive resistance training.</p>
+                            </div>
+                        </div>
+                        <button id="sendBmiToChatBtn" class="btn btn-outline btn-full"><i class="fas fa-robot"></i> Ask AI for Custom Routine</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers Section with Real Photos -->
     <section id="trainers" class="trainers">
         <div class="container">
             <div class="section-header">
-                <p class="section-subtitle">MEET OUR TEAM</p>
-                <h2 class="section-title">EXPERT <span class="gold">TRAINERS</span></h2>
-                <p class="section-description">Our certified professionals bring years of experience and passion to help you achieve extraordinary results.</p>
+                <p class="section-subtitle">WORLD-CLASS FACULTY</p>
+                <h2 class="section-title">EXPERT MASTER <span class="gold">COACHES</span></h2>
+                <p class="section-description">Our coaches hold international elite accreditations, championship titles, and decades of proven client transformations.</p>
             </div>
             <div class="trainers-grid">
                 <div class="trainer-card">
                     <div class="trainer-img">
-                        <div class="img-placeholder trainer-placeholder">
-                            <i class="fas fa-user"></i>
-                        </div>
+                        <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?auto=format&fit=crop&w=600&q=80" alt="Marcus Johnson - Head Strength Coach" class="trainer-photo">
                         <div class="trainer-social">
                             <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                             <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
@@ -297,15 +551,15 @@
                     </div>
                     <div class="trainer-info">
                         <h3>Marcus Johnson</h3>
-                        <p class="trainer-role">Head Strength Coach</p>
-                        <p class="trainer-bio">15+ years in powerlifting & bodybuilding. NSCA Certified.</p>
+                        <p class="trainer-role">Head Strength & Powerlifting Coach</p>
+                        <p class="trainer-bio">15+ years coaching national powerlifters and athletes. NSCA-CSCS Certified specialist in biomechanics and neuromuscular adaptation.</p>
+                        <span class="trainer-spec-badge">Strength & Power</span>
                     </div>
                 </div>
+
                 <div class="trainer-card">
                     <div class="trainer-img">
-                        <div class="img-placeholder trainer-placeholder">
-                            <i class="fas fa-user"></i>
-                        </div>
+                        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=600&q=80" alt="Sarah Williams - Yoga and Pilates Specialist" class="trainer-photo">
                         <div class="trainer-social">
                             <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                             <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
@@ -314,15 +568,15 @@
                     </div>
                     <div class="trainer-info">
                         <h3>Sarah Williams</h3>
-                        <p class="trainer-role">Yoga & Pilates Expert</p>
-                        <p class="trainer-bio">Certified yoga instructor with a holistic approach to wellness.</p>
+                        <p class="trainer-role">Yoga, Pilates & Recovery Lead</p>
+                        <p class="trainer-bio">E-RYT 500 certified instructor specializing in spinal decompression, Reformer Pilates, and breathwork for high-performance longevity.</p>
+                        <span class="trainer-spec-badge">Mobility & Mind-Body</span>
                     </div>
                 </div>
+
                 <div class="trainer-card">
                     <div class="trainer-img">
-                        <div class="img-placeholder trainer-placeholder">
-                            <i class="fas fa-user"></i>
-                        </div>
+                        <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=600&q=80" alt="David Chen - HIIT Specialist" class="trainer-photo">
                         <div class="trainer-social">
                             <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                             <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
@@ -331,15 +585,15 @@
                     </div>
                     <div class="trainer-info">
                         <h3>David Chen</h3>
-                        <p class="trainer-role">HIIT & Cardio Specialist</p>
-                        <p class="trainer-bio">Former athlete turned coach. Expert in fat loss programs.</p>
+                        <p class="trainer-role">HIIT & Metabolic Conditioning</p>
+                        <p class="trainer-bio">Former Division 1 track athlete. Precision fat loss specialist with expertise in VO2 max optimization and athletic interval training.</p>
+                        <span class="trainer-spec-badge">Fat Loss & Endurance</span>
                     </div>
                 </div>
+
                 <div class="trainer-card">
                     <div class="trainer-img">
-                        <div class="img-placeholder trainer-placeholder">
-                            <i class="fas fa-user"></i>
-                        </div>
+                        <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?auto=format&fit=crop&w=600&q=80" alt="Emma Rodriguez - Combat Coach" class="trainer-photo">
                         <div class="trainer-social">
                             <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                             <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
@@ -348,8 +602,9 @@
                     </div>
                     <div class="trainer-info">
                         <h3>Emma Rodriguez</h3>
-                        <p class="trainer-role">Boxing & MMA Coach</p>
-                        <p class="trainer-bio">Professional kickboxer with 10+ years coaching experience.</p>
+                        <p class="trainer-role">Boxing & Functional Combat</p>
+                        <p class="trainer-bio">Golden Gloves champion and martial arts coach. Builds razor-sharp reflexes, core rotational power, and fierce mental toughness.</p>
+                        <span class="trainer-spec-badge">Boxing & Conditioning</span>
                     </div>
                 </div>
             </div>
@@ -360,66 +615,50 @@
     <section id="testimonials" class="testimonials">
         <div class="container">
             <div class="section-header">
-                <p class="section-subtitle">SUCCESS STORIES</p>
-                <h2 class="section-title">WHAT OUR <span class="gold">MEMBERS SAY</span></h2>
-                <p class="section-description">Real transformations, real results. Hear from our community of dedicated members.</p>
+                <p class="section-subtitle">MEMBER TRANSFORMATIONS</p>
+                <h2 class="section-title">VERIFIED CLIENT <span class="gold">EXPERIENCES</span></h2>
+                <p class="section-description">Real results from dedicated professionals, executives, and competitive athletes who train with ELITE FITNESS.</p>
             </div>
             <div class="testimonials-slider" id="testimonialsSlider">
                 <div class="testimonial-track" id="testimonialTrack">
                     <div class="testimonial-card">
                         <div class="testimonial-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                         </div>
-                        <p class="testimonial-text">"ELITE FITNESS completely transformed my life. I lost 45 lbs in 6 months with their personalized training program. The trainers are incredibly knowledgeable and supportive."</p>
+                        <p class="testimonial-text">"ELITE FITNESS completely rebuilt my energy and posture. I dropped 42 lbs in 7 months with Marcus's periodized strength program and their nutrition protocols. The 24/7 AI chatbot was also surprisingly helpful for quick macro answers at midnight!"</p>
                         <div class="testimonial-author">
-                            <div class="author-avatar">
-                                <div class="avatar-placeholder">JD</div>
-                            </div>
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="James Davidson" class="author-img">
                             <div class="author-info">
                                 <h4>James Davidson</h4>
-                                <p>Member for 2 years</p>
+                                <p>Tech Director &bull; Member for 2 Years</p>
                             </div>
                         </div>
                     </div>
+
                     <div class="testimonial-card">
                         <div class="testimonial-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                         </div>
-                        <p class="testimonial-text">"The group classes are amazing! I've never felt more motivated. The community here keeps me coming back every single day. Best gym I've ever been a part of."</p>
+                        <p class="testimonial-text">"The infrared saunas, cold plunge tubs, and Reformer Pilates sessions under Sarah kept me injury-free throughout marathon training. There is honestly no other fitness club in NYC operating at this caliber of hospitality and hygiene."</p>
                         <div class="testimonial-author">
-                            <div class="author-avatar">
-                                <div class="avatar-placeholder">AM</div>
-                            </div>
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Amanda Mitchell" class="author-img">
                             <div class="author-info">
                                 <h4>Amanda Mitchell</h4>
-                                <p>Member for 3 years</p>
+                                <p>Architect &bull; Member for 3 Years</p>
                             </div>
                         </div>
                     </div>
+
                     <div class="testimonial-card">
                         <div class="testimonial-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                         </div>
-                        <p class="testimonial-text">"As a competitive athlete, I need a gym that matches my intensity. ELITE FITNESS has everything I need - top equipment, knowledgeable staff, and the perfect training environment."</p>
+                        <p class="testimonial-text">"As a competitive lifter, equipment quality is non-negotiable. Eleiko bars, competition calibrated plates, and 12 Olympic racks with zero wait times make Elite Fitness paradise for anyone serious about getting strong."</p>
                         <div class="testimonial-author">
-                            <div class="author-avatar">
-                                <div class="avatar-placeholder">RK</div>
-                            </div>
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80" alt="Robert Kim" class="author-img">
                             <div class="author-info">
                                 <h4>Robert Kim</h4>
-                                <p>Member for 4 years</p>
+                                <p>Investment Banker &bull; Member for 4 Years</p>
                             </div>
                         </div>
                     </div>
@@ -437,22 +676,22 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact & Consultation Section -->
     <section id="contact" class="contact">
         <div class="container">
             <div class="contact-grid">
                 <div class="contact-info">
-                    <p class="section-subtitle">GET IN TOUCH</p>
-                    <h2 class="section-title">START YOUR <span class="gold">JOURNEY</span> TODAY</h2>
-                    <p class="contact-text">Ready to transform your life? Fill out the form and our team will get back to you within 24 hours with a free consultation offer.</p>
+                    <p class="section-subtitle">DIRECT ACCESS</p>
+                    <h2 class="section-title">CLAIM YOUR <span class="gold">FREE VIP PASS</span></h2>
+                    <p class="contact-text">Experience ELITE FITNESS with a complimentary 1-day full access pass and private consultation with our master trainers. Fill in your details or message our 24/7 AI Concierge right now.</p>
                     <div class="contact-details">
                         <div class="contact-item">
                             <div class="contact-icon">
                                 <i class="fas fa-map-marker-alt"></i>
                             </div>
                             <div class="contact-text-group">
-                                <h4>Location</h4>
-                                <p>123 Fitness Boulevard, Downtown<br>New York, NY 10001</p>
+                                <h4>Flagship Headquarters</h4>
+                                <p>123 Fitness Boulevard, Downtown Financial District<br>New York, NY 10001</p>
                             </div>
                         </div>
                         <div class="contact-item">
@@ -460,8 +699,8 @@
                                 <i class="fas fa-phone-alt"></i>
                             </div>
                             <div class="contact-text-group">
-                                <h4>Phone</h4>
-                                <p>+1 (555) 123-4567</p>
+                                <h4>VIP Reception</h4>
+                                <p>+1 (555) 123-4567 / +1 (555) 765-4321</p>
                             </div>
                         </div>
                         <div class="contact-item">
@@ -469,8 +708,8 @@
                                 <i class="fas fa-envelope"></i>
                             </div>
                             <div class="contact-text-group">
-                                <h4>Email</h4>
-                                <p>info@elitefitness.com</p>
+                                <h4>Direct Inquiries</h4>
+                                <p>concierge@elitefitness.com</p>
                             </div>
                         </div>
                         <div class="contact-item">
@@ -478,14 +717,16 @@
                                 <i class="fas fa-clock"></i>
                             </div>
                             <div class="contact-text-group">
-                                <h4>Working Hours</h4>
-                                <p>Mon-Fri: 5AM - 11PM<br>Sat-Sun: 7AM - 9PM</p>
+                                <h4>Facility Hours</h4>
+                                <p>General Access: Mon-Fri: 5:00 AM - 11:00 PM | Sat-Sun: 7:00 AM - 9:00 PM<br><strong>VIP Members & AI Concierge: 24/7/365 Continuous</strong></p>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="contact-form-wrapper">
                     <form class="contact-form" id="contactForm">
+                        <h3>Book Consultation</h3>
                         <div class="form-group">
                             <input type="text" id="name" name="name" placeholder=" " required>
                             <label for="name">Full Name</label>
@@ -503,22 +744,23 @@
                         </div>
                         <div class="form-group">
                             <select id="interest" name="interest" required>
-                                <option value="" disabled selected></option>
+                                <option value="" disabled selected hidden></option>
                                 <option value="general">General Membership</option>
-                                <option value="personal">Personal Training</option>
-                                <option value="group">Group Classes</option>
-                                <option value="corporate">Corporate Plans</option>
+                                <option value="vip">Elite VIP Access & Recovery</option>
+                                <option value="personal">1-on-1 Personal Coaching</option>
+                                <option value="group">Group Classes (HIIT / Boxing / Yoga)</option>
+                                <option value="tour">Book Private Facility Tour</option>
                             </select>
-                            <label for="interest">I'm Interested In</label>
+                            <label for="interest">Area of Interest</label>
                             <span class="focus-border"></span>
                         </div>
                         <div class="form-group">
-                            <textarea id="message" name="message" rows="5" placeholder=" " required></textarea>
-                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder=" " required></textarea>
+                            <label for="message">Your Fitness Goals or Questions</label>
                             <span class="focus-border"></span>
                         </div>
                         <button type="submit" class="btn btn-primary btn-full">
-                            <span>SEND MESSAGE</span>
+                            <span>SUBMIT RESERVATION</span>
                             <i class="fas fa-paper-plane"></i>
                         </button>
                     </form>
@@ -532,52 +774,56 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-about">
-                    <a href="#" class="footer-logo">ELITE<span class="gold">FITNESS</span></a>
-                    <p>Your premier destination for fitness excellence. Transform your body, elevate your mindset, and join a community that inspires greatness.</p>
+                    <a href="#home" class="footer-logo">ELITE<span class="gold">FITNESS</span></a>
+                    <p>New York's premier sanctuary for athletic excellence, strength science, and continuous wellness transformation. Powered by human expertise and 24/7 AI concierge intelligence.</p>
                     <div class="social-links">
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="footer-links">
-                    <h4>Quick Links</h4>
+                    <h4>Quick Navigation</h4>
                     <ul>
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#pricing">Pricing</a></li>
-                        <li><a href="#trainers">Trainers</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#about">About Facility</a></li>
+                        <li><a href="#services">Disciplines</a></li>
+                        <li><a href="#specs">Specs & Equipment</a></li>
+                        <li><a href="#schedule">Class Schedule</a></li>
+                        <li><a href="#pricing">Pricing Plans</a></li>
                     </ul>
                 </div>
                 <div class="footer-links">
-                    <h4>Programs</h4>
+                    <h4>Core Programs</h4>
                     <ul>
-                        <li><a href="#services">Strength Training</a></li>
-                        <li><a href="#services">HIIT & Cardio</a></li>
-                        <li><a href="#services">Yoga & Pilates</a></li>
-                        <li><a href="#services">Boxing & MMA</a></li>
-                        <li><a href="#services">Group Classes</a></li>
-                        <li><a href="#services">Personal Training</a></li>
+                        <li><a href="#services">Strength Hypertrophy</a></li>
+                        <li><a href="#services">HIIT Conditioning</a></li>
+                        <li><a href="#services">Reformer Yoga & Pilates</a></li>
+                        <li><a href="#services">Boxing & Fight Club</a></li>
+                        <li><a href="#bmi">BMI Health Calculator</a></li>
+                        <li><a href="#contact">Free Day Pass</a></li>
                     </ul>
                 </div>
                 <div class="footer-newsletter">
-                    <h4>Newsletter</h4>
-                    <p>Subscribe for fitness tips, exclusive offers, and gym updates.</p>
+                    <h4>VIP Newsletter</h4>
+                    <p>Subscribe for workout blueprints, nutritional research, and exclusive member invitations.</p>
                     <form class="newsletter-form" id="newsletterForm">
-                        <input type="email" placeholder="Your email address" required>
-                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit" aria-label="Subscribe"><i class="fas fa-arrow-right"></i></button>
                     </form>
+                    <div class="developer-tag">
+                        <span>Crafted with pride by <strong>Sain Bux Hadi Seelro</strong></span>
+                    </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 ELITE FITNESS. All Rights Reserved.</p>
+                <p>&copy; 2026 ELITE FITNESS &bull; Engineered by Sain Bux Hadi Seelro. All Rights Reserved.</p>
                 <div class="footer-bottom-links">
                     <a href="#">Privacy Policy</a>
                     <a href="#">Terms of Service</a>
+                    <a href="#">Security Specs</a>
                 </div>
             </div>
         </div>
@@ -588,6 +834,80 @@
         <i class="fas fa-chevron-up"></i>
     </button>
 
+    <!-- ============================================ -->
+    <!-- 24/7 LIVE AI GYM ASSISTANT CHATBOT COMPONENT  -->
+    <!-- ============================================ -->
+    <div id="gymChatbot" class="chatbot-wrapper">
+        <!-- Floating Chat Trigger Button -->
+        <button id="chatbotToggleBtn" class="chatbot-toggle-btn" aria-label="Open 24/7 AI Fitness Assistant">
+            <div class="toggle-icon-wrap">
+                <i class="fas fa-robot chatbot-icon-main"></i>
+                <i class="fas fa-times chatbot-icon-close"></i>
+            </div>
+            <span class="chatbot-pulse-ring"></span>
+            <div class="chatbot-online-indicator"></div>
+        </button>
+
+        <!-- Floating Chat Tooltip (Pops up initially to engage visitors) -->
+        <div id="chatPromoTooltip" class="chatbot-promo-tooltip">
+            <span class="tooltip-badge">24/7 LIVE</span>
+            <p>👋 Need workout advice, gym hours, or a free day pass? Ask me!</p>
+            <button id="closePromoTooltip" class="tooltip-close">&times;</button>
+        </div>
+
+        <!-- Chat Window / Box -->
+        <div id="chatWindow" class="chat-window" aria-hidden="true">
+            <div class="chat-header">
+                <div class="chat-header-info">
+                    <div class="chat-avatar">
+                        <i class="fas fa-robot"></i>
+                        <span class="status-dot"></span>
+                    </div>
+                    <div>
+                        <h4 class="chat-title">ELITE AI Concierge</h4>
+                        <span class="chat-status-text">Online 24/7 &bull; Instant Answers</span>
+                    </div>
+                </div>
+                <div class="chat-header-actions">
+                    <button id="chatClearBtn" class="chat-action-btn" title="Clear Chat"><i class="fas fa-trash-alt"></i></button>
+                    <button id="chatMinimizeBtn" class="chat-action-btn" title="Minimize Chat"><i class="fas fa-minus"></i></button>
+                </div>
+            </div>
+
+            <!-- Messages Stream Area -->
+            <div class="chat-messages" id="chatMessages">
+                <!-- System Welcome Message -->
+                <div class="chat-msg bot-msg">
+                    <div class="msg-avatar"><i class="fas fa-robot"></i></div>
+                    <div class="msg-bubble">
+                        <p>Welcome to <strong>ELITE FITNESS</strong>! I'm your 24/7 AI Concierge. I have full knowledge of our gym facilities, pricing, trainers, workouts, and schedules.</p>
+                        <p>How can I assist you right now?</p>
+                    </div>
+                    <span class="msg-time">Just now</span>
+                </div>
+            </div>
+
+            <!-- Quick Suggestion Action Chips -->
+            <div class="chat-quick-chips" id="chatQuickChips">
+                <button class="chip" data-query="What are your gym hours and address?">⏱ Hours & Address</button>
+                <button class="chip" data-query="Tell me about membership plans and pricing">💳 Membership Plans</button>
+                <button class="chip" data-query="Can I get a 1-day free pass?">🎁 1-Day Free Pass</button>
+                <button class="chip" data-query="Tell me about your personal trainers">🏋️‍♂️ Trainers Info</button>
+                <button class="chip" data-query="What are the facility specs and equipment?">📐 Gym Specs</button>
+                <button class="chip" data-query="How can I calculate my BMI?">⚖️ Calculate BMI</button>
+            </div>
+
+            <!-- Chat Input Area -->
+            <form id="chatForm" class="chat-input-area">
+                <input type="text" id="chatInput" placeholder="Ask anything about Elite Gym..." autocomplete="off" required>
+                <button type="submit" id="chatSendBtn" aria-label="Send message">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Main JavaScript Logic -->
     <script src="script.js"></script>
 </body>
 </html>
