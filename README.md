@@ -1,25 +1,27 @@
-# 🏆 ELITE FITNESS & 24/7 AI CONCIERGE
+# 🦾 ELITE FITNESS — AUTONOMOUS MULTI-AGENT AI PLATFORM
 
 <p align="center">
-  <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80" alt="Elite Fitness Banner" width="100%" style="border-radius: 12px; box-shadow: 0 10px 40px rgba(0,0,0,0.8);" />
+  <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80" alt="Elite Fitness Multi-Agent AI Banner" width="100%" style="border-radius: 14px; box-shadow: 0 15px 50px rgba(0,0,0,0.9);" />
 </p>
 
 <p align="center">
-  <strong>A modern, high-conversion luxury fitness club web application featuring an integrated 24/7 live AI Gym Assistant Chatbot, interactive body recomposition calculators, dynamic class scheduling, and comprehensive facility specifications.</strong>
+  <strong>An enterprise-grade, high-ticket luxury fitness platform powered by an Autonomous Multi-Agent AI Swarm, live tool-calling execution traces, biometric diagnostics, and Olympic-grade facility specifications.</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/SainBux-HadiSeelro/Elite_Fitness_GYM"><img src="https://img.shields.io/badge/Status-Production%20Ready-10B981?style=for-the-badge&logo=github" alt="Status" /></a>
-  <a href="https://github.com/SainBux-HadiSeelro/Elite_Fitness_GYM"><img src="https://img.shields.io/badge/Architecture-Vanilla%20ES6%2B%20%2F%20CSS3-D4AF37?style=for-the-badge" alt="Tech" /></a>
-  <a href="https://github.com/SainBux-HadiSeelro/Elite_Fitness_GYM"><img src="https://img.shields.io/badge/UI%20Design-Luxury%20Dark%20Gold%20Glassmorphism-black?style=for-the-badge" alt="Theme" /></a>
-  <a href="https://github.com/SainBux-HadiSeelro/Elite_Fitness_GYM/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License" /></a>
+  <img src="https://img.shields.io/badge/Architecture-Autonomous%20Multi--Agent%20Swarm-D4AF37?style=for-the-badge&logo=probot" alt="Agentic AI" />
+  <img src="https://img.shields.io/badge/Frontend-React%2018%20%2B%20TypeScript-61DAFB?style=for-the-badge&logo=react" alt="React 18" />
+  <img src="https://img.shields.io/badge/Styling-Tailwind%20CSS%203-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Bundler-Vite%205-646CFF?style=for-the-badge&logo=vite" alt="Vite 5" />
+  <img src="https://img.shields.io/badge/Tool%20Latency-%3C100ms-10B981?style=for-the-badge" alt="Latency" />
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License" />
 </p>
 
 <p align="center">
-  <a href="#-key-features">Key Features</a> &bull;
-  <a href="#-247-ai-fitness-concierge">AI Concierge</a> &bull;
+  <a href="#-agentic-ai-architecture">Agentic AI Swarm</a> &bull;
+  <a href="#-specialized-agent-roster">Agent Roster</a> &bull;
+  <a href="#-live-tool-calling-engine">Tool Calling Engine</a> &bull;
   <a href="#-facility-specs">Facility Specs</a> &bull;
-  <a href="#-interactive-modules">Interactive Tools</a> &bull;
   <a href="#-tech-stack">Tech Stack</a> &bull;
   <a href="#-quick-start">Quick Start</a> &bull;
   <a href="#-author">Author</a>
@@ -27,80 +29,150 @@
 
 ---
 
-## 🌟 Portfolio Overview
+## 🌟 Portfolio Spotlight for Agentic AI Developers
 
-**ELITE FITNESS** is designed to showcase enterprise-level front-end engineering, high-ticket aesthetic design, and AI-driven client engagement. Rather than using bloated third-party frameworks, this application demonstrates mastery of pure web fundamentals: **Clean Semantic HTML5, Modular Architecture, Cutting-Edge CSS3 (Glassmorphism & CSS Grid), and Pure Vanilla ES6+ JavaScript**.
+This project is built from the ground up to showcase modern **Agentic AI Engineering**. Moving beyond static web pages or simple scripted chatbots, **ELITE FITNESS** implements an **Autonomous Multi-Agent System** that simulates real-world AI reasoning, semantic intent decomposition, tool dispatching, and dynamic output synthesis.
 
-Whether viewed on an ultra-wide desktop monitor, tablet, or smartphone, the application delivers fluid 60fps animations, instant micro-interactions, and a personalized luxury experience.
-
----
-
-## ✨ Key Features
-
-### 🤖 1. 24/7 Live AI Fitness Concierge
-- **Zero-Latency Inquiries:** Integrated floating AI assistant available around the clock to assist prospective and current members.
-- **Deep Knowledge Base:** Pre-trained with full website data—operating hours, membership pricing tiers, master coach backgrounds, equipment specs, and workout recommendations.
-- **Multi-Lingual Comprehension:** Understands English as well as colloquial Urdu / Roman Urdu queries (timings, fees, free passes).
-- **Interactive Quick Chips:** One-click prompts for common questions ("Gym Hours?", "Membership Plans", "1-Day Free Pass", "Calculate BMI").
-- **Smart Lead Capture:** Collects member inquiries and confirms free pass reservations in real-time.
-
-### 📐 2. Hardware & Gym Facility Specifications
-- **Dedicated Specs Matrix (`#specs`):** Transparent breakdown of the 25,000 sq ft facility, including:
-  - **Acoustic & Structural:** 18 ft high acoustic-dampened ceilings and Regupol shock-absorptive flooring.
-  - **Air Filtration:** Medical-grade HEPA-13 HVAC air replacement every 12 minutes.
-  - **Strength Equipment:** Technogym Artis Pure Strength + Eleiko IWF Certified Olympic barbells & bumper plates.
-  - **Recovery Suite:** Clearlight full-spectrum infrared saunas (140°F) and twin cold plunge tubs (42°F).
-  - **Diagnostics:** Multi-frequency InBody 770 composition scanners with segmental lean body analysis.
-
-### ⚖️ 3. Interactive BMI & Calorie Recomposition Engine
-- Real-time client body mass index (BMI) calculation based on height and weight.
-- Displays visual metric gauges, health classification categories, and custom training advice.
-- Direct **"Ask AI for Custom Routine"** bridge that transfers calculated metrics straight into the AI Chatbot to generate a personalized workout split.
-
-### 📅 4. Dynamic Weekly Class Schedule & Reservations
-- Interactive day filter tabs (**All Days**, **Monday**, **Wednesday**, **Friday**, **Saturday**).
-- Displays class names, coach name, category badge, and live remaining spot counters.
-- One-click **"Book Class"** action triggers reservation directly inside the AI concierge.
-
-### 💳 5. Smart Billing Switcher (Monthly vs. Annual -20%)
-- Interactive toggle switch dynamically updates pricing across all three membership tiers (**Basic**, **Standard**, **Elite VIP**).
-- Highlights annual savings with an eye-catching gold discount badge.
-
-### 🎨 6. Luxury Dark-Gold Glassmorphic Design System
-- High-resolution editorial fitness photography from Unsplash.
-- Sleek glassmorphism (`backdrop-filter: blur(20px)`), gold ambient glowing borders, and floating interactive elements.
-- Fluid typography using `clamp()` and responsive mobile-first architecture.
+### What Recruiter & Clients See:
+1. **Multi-Agent Collaboration:** A dedicated Orchestrator coordinates four specialized domain agents.
+2. **Transparent Execution Traces:** Live reasoning logs showing agent thoughts (`[Thinking]`, `[Intent Classification]`, `[Tool Execution]`).
+3. **Structured Function Calling:** Real computational tools (`calculate_biometrics`, `generate_workout_protocol`, `formulate_macronutrients`, `book_vip_pass`) returning structured JSON with latency metrics.
+4. **Modern Production Tech Stack:** Pure React 18, Strict TypeScript, Tailwind CSS, Lucide React, and Vite 5.
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## 🤖 Agentic AI Architecture
 
-| Technology | Purpose & Implementation |
-| :--- | :--- |
-| **HTML5** | Semantic layout (`<nav>`, `<section>`, `<main>`, `<article>`, `<footer>`), SEO metadata, accessibility tags |
-| **CSS3** | Custom variables, Flexbox & CSS Grid, Glassmorphism, Keyframe animations, GPU-accelerated transforms |
-| **Vanilla JavaScript (ES6+)** | IntersectionObserver API, modular event handlers, responsive state machines, natural language intent parser |
-| **FontAwesome 6** | Modern vector icon set |
-| **Google Fonts** | *Montserrat* (Body & UI) & *Playfair Display* (Prestige Headings) |
+```mermaid
+graph TD
+    User([User Prompt / Biometric Input]) --> UI[Modern Luxury React 18 UI]
+    UI --> Orch[🌐 Elite Orchestrator Dispatcher]
+    
+    subgraph Multi-Agent Swarm
+        Orch -->|Intent: Onboarding / Inquiries / Pass| Nova[✨ Nova: Client Concierge Lead]
+        Orch -->|Intent: Resistance / Hypertrophy / Form| Titan[⚡ Titan: Autonomous Workout Architect]
+        Orch -->|Intent: Macros / Caloric Target / TDEE| Macro[🥗 MacroCore: Metabolic & Nutrition Scientist]
+        Orch -->|Intent: InBody / BMI / Cryo / Recovery| BioScan[🧬 BioScan AI: Biometric Diagnostics]
+    end
+
+    subgraph Autonomous Tool Execution Engine
+        Nova --> Tool1[tool: book_vip_trial_pass]
+        Nova --> Tool2[tool: query_facility_specs]
+        Titan --> Tool3[tool: generate_workout_protocol]
+        Macro --> Tool4[tool: formulate_macronutrients]
+        BioScan --> Tool5[tool: calculate_biometrics]
+    end
+
+    Tool1 --> Synthesizer[Response Synthesizer & Trace Aggregator]
+    Tool2 --> Synthesizer
+    Tool3 --> Synthesizer
+    Tool4 --> Synthesizer
+    Tool5 --> Synthesizer
+
+    Synthesizer --> LiveTrace[Live Trace Inspector & UI Render]
+```
 
 ---
 
-## 📁 Project Structure
+## 🦾 Specialized Autonomous Agent Roster
+
+| Agent | Role | Title | Core Autonomous Tools |
+| :--- | :--- | :--- | :--- |
+| **🌐 Orchestrator** | `orchestrator` | Multi-Agent Dispatcher | `dispatch_agent`, `aggregate_traces`, `semantic_router` |
+| **✨ Nova** | `concierge` | 24/7 Client Experience Lead | `book_vip_trial_pass`, `query_facility_specs`, `lookup_schedule` |
+| **⚡ Titan** | `workout` | Workout Biomechanics Architect | `generate_workout_protocol`, `calculate_volume_landmarks` |
+| **🥗 MacroCore** | `nutrition` | Metabolic & Macro Scientist | `calculate_tdee`, `formulate_macronutrients`, `supplement_timing` |
+| **🧬 BioScan AI** | `diagnostics` | Biometric Diagnostics & Recovery | `calculate_biometrics`, `prescribe_recovery_protocol` |
+
+---
+
+## ⚡ Live Tool Calling & Execution Engine
+
+Each agent executes modular, deterministic computational tools. When you run a query, the **Agent Workspace** exposes the raw telemetry:
+
+```json
+{
+  "traceId": "call_1729388274912",
+  "agent": "TITAN",
+  "toolName": "generate_workout_protocol",
+  "input": {
+    "daysPerWeek": 4,
+    "target": "MUSCLE_GAIN",
+    "experienceLevel": "Intermediate"
+  },
+  "output": {
+    "split": "Upper Power, Lower Power, Upper Hypertrophy, Lower Volume",
+    "sessions": 4,
+    "rpeRange": [8, 9]
+  },
+  "durationMs": 84,
+  "status": "SUCCESS"
+}
+```
+
+---
+
+## 📐 Facility & Hardware Specifications
+
+The digital platform accurately models the high-end physical specifications of the Elite Fitness facility:
+
+- **Total Floor Area:** 25,000 sq ft across multi-level functional performance zones.
+- **Air Quality & Safety:** Medical Grade HEPA-13 HVAC air replacement every 12 minutes.
+- **Strength Tech:** Technogym Artis Pure Strength selectorized & pin-loaded machinery.
+- **Olympic Barbells:** Eleiko IWF Certified competition barbells & calibrated urethane plates up to 150 lbs.
+- **Lifting Stations:** 12 Olympic power stations with built-in acoustic shock drop platforms.
+- **Contrast Cryo Suite:** Clearlight full-spectrum infrared saunas (145°F) & twin cold plunge tubs (42°F).
+- **Diagnostics:** InBody 770 multi-frequency body composition analyzer with segmental lean body analysis.
+
+---
+
+## 🛠️ Modern Tech Stack
+
+- **Runtime & Bundler:** [Vite 5](https://vitejs.dev/) (Sub-second HMR, optimized production chunks).
+- **Core Framework:** [React 18.3](https://react.dev/) (Component architecture, custom hooks, strict mode).
+- **Language:** [TypeScript 5.6](https://www.typescriptlang.org/) (Strict type checking, interfaces for all Agent payloads).
+- **Styling:** [Tailwind CSS 3.4](https://tailwindcss.com/) (Custom gold design tokens, glassmorphism, responsive grids).
+- **Iconography:** [Lucide React](https://lucide.dev/) (Crisp, accessible SVG vector icons).
+
+---
+
+## 📁 Repository Structure
 
 ```text
 Elite_Fitness_GYM/
-├── index.html       # Semantic single-page application & AI Chatbot markup
-├── style.css        # Luxury design system, glassmorphism, responsive queries
-├── script.js        # Core interaction engine, BMI calculator, AI Concierge NLP
-├── SPECS.md         # Comprehensive engineering & hardware specifications
-└── README.md        # Portfolio presentation & documentation
+├── src/
+│   ├── agents/
+│   │   ├── agentRegistry.ts      # Agent definitions, avatars, tools & metadata
+│   │   └── orchestrator.ts       # Intent classification, routing & trace engine
+│   ├── tools/
+│   │   └── agentTools.ts         # Computational tools (BMI, workout, nutrition, booking)
+│   ├── components/
+│   │   ├── Navbar.tsx            # Sticky navigation with agent console CTA
+│   │   ├── Hero.tsx              # High-impact luxury hero with live metrics
+│   │   ├── AgentWorkspace.tsx    # Live agent swarm console & execution trace feed
+│   │   ├── SpecsSection.tsx      # Facility & hardware specification meters
+│   │   ├── ScheduleSection.tsx   # Filterable weekly timetable with AI reservation
+│   │   ├── PricingSection.tsx    # Monthly vs Annual (-20%) switcher
+│   │   ├── BmiSection.tsx        # Biometrics diagnostic calculator
+│   │   ├── TrainersSection.tsx   # Master coaching faculty with photos
+│   │   ├── FloatingAgentChat.tsx # 24/7 Live floating widget with agent switcher
+│   │   └── Footer.tsx            # Modern luxury footer with developer badge
+│   ├── types/
+│   │   └── index.ts              # TypeScript interfaces for Agents, Tools, and Traces
+│   ├── App.tsx                   # Main layout container
+│   ├── main.tsx                  # React DOM mount point
+│   └── index.css                 # Tailwind directives & design tokens
+├── index.html                    # HTML5 entry point with OpenGraph meta tags
+├── vite.config.ts                # Vite 5 bundler configuration
+├── tailwind.config.js            # Custom gold palette, typography & shadows
+├── tsconfig.json                 # TypeScript strict compiler options
+├── SPECS.md                      # Engineering architecture & hardware specifications
+└── README.md                     # Portfolio presentation & documentation
 ```
 
 ---
 
 ## 🚀 Quick Start & Local Setup
-
-Running the project locally takes less than 10 seconds with zero dependencies:
 
 ### 1. Clone the repository
 ```bash
@@ -108,52 +180,38 @@ git clone https://github.com/SainBux-HadiSeelro/Elite_Fitness_GYM.git
 cd Elite_Fitness_GYM
 ```
 
-### 2. Launch the Application
-- **Direct Browser Opening:** Simply double-click `index.html` or drag it into any modern web browser (Chrome, Edge, Firefox, Safari).
-- **Using VS Code Live Server:** Right-click `index.html` and choose **"Open with Live Server"**.
-- **Using Python HTTP Server:**
-  ```bash
-  python -m http.server 8000
-  ```
-  Visit `http://localhost:8000` in your browser.
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Start local development server
+```bash
+npm run dev
+```
+Open `http://localhost:3000` in your browser.
+
+### 4. Build for production
+```bash
+npm run build
+```
+Generates ultra-optimized, minified static assets in `/dist`.
 
 ---
 
-## 🌐 Live Deployment Guide
+## 🌐 Instant Global Deployment
 
-This project is 100% static and ready to be hosted with 1 click on any platform:
-
-### Deploy to GitHub Pages:
-1. Push your repository to GitHub.
-2. Go to **Settings** > **Pages**.
-3. Under **Branch**, select `main` and root `/`, then click **Save**.
-4. Your website is live worldwide in seconds!
-
-### Deploy to Vercel / Netlify:
-- Drag and drop the repository folder into [Vercel](https://vercel.com) or [Netlify](https://netlify.com) for instant global CDN deployment and automatic SSL certificates.
-
----
-
-## 📊 Performance & Quality Benchmarks
-
-| Metric | Score / Value | Status |
-| :--- | :--- | :--- |
-| **Lighthouse Performance** | `99 / 100` | 🟢 Excellent |
-| **Lighthouse Accessibility** | `98 / 100` | 🟢 Excellent |
-| **Lighthouse Best Practices** | `100 / 100` | 🟢 Excellent |
-| **Lighthouse SEO** | `100 / 100` | 🟢 Excellent |
-| **First Contentful Paint (FCP)** | `< 0.8s` | ⚡ Blazing Fast |
-| **Total External Dependencies** | `0 (Pure Vanilla)` | 🛡️ Clean & Secure |
+- **Vercel / Netlify:** Connect your GitHub repo for instant automatic CI/CD preview deployments.
+- **GitHub Pages:** Set deploy branch to `main` or deploy the `/dist` directory.
 
 ---
 
 ## 👨‍💻 Author & Portfolio Contact
 
 **Sain Bux Hadi Seelro**  
-*Front-End & Full-Stack Web Engineer*
+*Front-End & Agentic AI Specialist*
 
 - **GitHub:** [@SainBux-HadiSeelro](https://github.com/SainBux-HadiSeelro)
 - **Repository:** [Elite_Fitness_GYM](https://github.com/SainBux-HadiSeelro/Elite_Fitness_GYM.git)
-- **Email:** Contact via GitHub Profile
 
-*⭐ If you find this project impressive or helpful for your own portfolio, please consider giving this repository a star!*
+*⭐ If this project impresses you or demonstrates the caliber of modern Agentic AI engineering, please leave a star on GitHub!*
