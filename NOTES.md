@@ -31,3 +31,7 @@ Project notes and architecture highlights for Elite Fitness GYM Multi-Agent AI P
 - calculate_biometrics: Analyzes height, weight, age.
 - generate_workout_protocol: Generates custom workout splits.
 - formulate_macronutrients: Computes macro distribution.
+
+### Deployment & Verification
+- Validated Vite production build bundle size.
+- Verified TypeScript strict type checking passes with zero errors.
