@@ -11,3 +11,8 @@ Project notes and architecture highlights for Elite Fitness GYM Multi-Agent AI P
 ### Status
 - Working tree clean and production build ready.
 - Documentation and guides updated.
+
+### System Requirements
+- Node.js >= 18.0.0
+- npm >= 9.0.0
+- Modern browser with ES2022 support
