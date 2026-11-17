@@ -26,3 +26,8 @@ Project notes and architecture highlights for Elite Fitness GYM Multi-Agent AI P
 - Glassmorphism design system with gold luxury accents.
 - Responsive mobile and desktop navigation.
 - Real-time simulation console for AI reasoning traces.
+
+### Tool Integration Specs
+- calculate_biometrics: Analyzes height, weight, age.
+- generate_workout_protocol: Generates custom workout splits.
+- formulate_macronutrients: Computes macro distribution.
