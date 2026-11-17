@@ -21,3 +21,8 @@ Project notes and architecture highlights for Elite Fitness GYM Multi-Agent AI P
 - Orchestrator handles query classification.
 - Biometrics specialist calculates BMR and target calories.
 - Workout planner generates training splits.
+
+### UI & UX Modules
+- Glassmorphism design system with gold luxury accents.
+- Responsive mobile and desktop navigation.
+- Real-time simulation console for AI reasoning traces.
