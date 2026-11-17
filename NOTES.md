@@ -16,3 +16,8 @@ Project notes and architecture highlights for Elite Fitness GYM Multi-Agent AI P
 - Node.js >= 18.0.0
 - npm >= 9.0.0
 - Modern browser with ES2022 support
+
+### Agent Architecture Details
+- Orchestrator handles query classification.
+- Biometrics specialist calculates BMR and target calories.
+- Workout planner generates training splits.
